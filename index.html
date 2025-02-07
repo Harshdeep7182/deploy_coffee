@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Mug</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+        #wrapper{
+            height: 100vh;
+            width: 100vw;
+            background: #f0e4e4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            height: 400px;
+            width: 700px;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* border: 5px solid black; */
+            background: #144f19;
+            border-radius: 25px;
+            /* flex-wrap: wrap; */
+            /* align-items: space-between; */
+        }
+        .photo{
+            height:100%;
+            /* align-items: start; */
+            width: 50%;
+           
+        }
+        img{
+            height:100%;
+            width: 100%;
+            border-top-left-radius:25px ;
+            border-bottom-left-radius: 25px;
+            
+            
+        }
+        .Coffee_Mug{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+            width: 50%;
+            gap: 25px;
+            margin-top: 20px;
+            height: 100%;
+            padding: 20px;
+        }
+        button{
+            height: 40px;
+            width: 90%;
+            padding: 5px;
+            border-radius: 7px;
+            background: rgb(255, 255, 255);
+            color: black;
+        }
+        p{
+            font-size:18px ;
+        }
+        font{
+            font-size: 2rem;
+
+        }
+        .text-big{
+            font-size: 30px;
+            color: white;
+        }
+        .price{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .text-big{
+            align-self:flex-start;
+            margin: 0px 20px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="photo">
+                <img src="coffee mug.webp" alt="">
+            </div>
+            <div class="Coffee_Mug">
+               <h4> C O F F E E &nbsp; M U G</h4>
+               <h1>White Coffee Mug</h1>   
+               <p>
+                Coffee Mugs are designed to express emotions.
+                These are acclaimed for their amazing designs &
+                superior quality.
+                </p>
+                <p class="price"><span class="text-big">$149</span><s class="center">$230</s></p>
+              <button>
+                Add to Cart
+              </button>
+             
+            
+            </div>
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
